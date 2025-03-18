@@ -1,0 +1,6 @@
+Nome: Amanda de Oliveira.
+Idade: 17 anos.
+Conhecimento técnico: Atualmente estou fazendo curso de Desenvolvimento de Sistemas.
+Mora com: Meus pais.
+Gosta de: Sair, assistir, jogar e entre outros.
+Trabalho: Não trabalho, mas gostaria de trabalhar na área de front end.
