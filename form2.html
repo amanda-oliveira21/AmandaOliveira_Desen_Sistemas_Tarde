@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 02 formulário</title>
+</head>
+<body>
+    <h1>Exemplo 2 formulário</h1>
+    <form>
+        <label for="CEP">CEP:
+            <input name="CEP" id="CEP" placeholder="12345-123" required pattern="\d{5}-?\d{3}"/> <!--O comando pattern é o responsável de validar a mascara-->
+        </label>
+        <br/>
+        <label for="Telefone">Telefone:
+            <input name="telefone" id="Telefone" placeholder="12-12345-6789" required pattern="\d{2}-\d{5}-?\d{4}"/> <!--O comando pattern é o responsável de validar a mascara-->
+        </label>
+        <br/>
+        <input type="submit" value="Enviar"/>
+    </form>
+    
+</body>
+</html>
