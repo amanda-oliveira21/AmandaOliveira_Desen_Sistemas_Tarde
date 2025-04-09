@@ -1,0 +1,77 @@
+/* Fundo geral e fonte padrão */
+body {
+    background-color: #ffe6f0; /* rosa bem claro */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Título principal (h1) */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #cc0066;
+}
+
+/* Subtítulo (h2) */
+h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #99004d;
+}
+
+/* Caixas do formulário (fieldset) */
+fieldset {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    background-color: #ffd6e7;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid #ff66b2;
+}
+
+/* Legenda dos grupos */
+legend {
+    color: #800040;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Tabela que organiza os campos */
+table {
+    width: 100%;
+}
+
+/* Estilo dos campos de texto e selects */
+input, select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Centraliza os botões e as legendas */
+form {
+    text-align: center;
+}
+
+/* Estilo dos botões */
+input[type="submit"], input[type="reset"] {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Hover dos botões */
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #cc3366;
+}
