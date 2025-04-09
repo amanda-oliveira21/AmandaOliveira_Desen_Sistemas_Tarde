@@ -1,12 +1,12 @@
 //EXECUTAR MASCARAS
 
-function mascara(o, f) { //DEFINE O OBJETO E CHAMA FUNCAO
+    function mascara(o, f) { //DEFINE O OBJETO E CHAMA FUNCAO
     objeto=o
     funcao=f
     setTimeout("executaMascara()",1)
 }
 
-function executaMasca() {
+    function executaMascara() {
     objeto.value=funcao(objeto.value)
 }
 
@@ -15,7 +15,7 @@ function executaMasca() {
 
 //Mascara do Telefone
 
-function telefone(variavel) {
+    function telefone(variavel) {
     variavel=variavel.replace (/\D/g,"") //Remove tudo que não é digito
 
     // A LINHA ABAIXO É RESPONSAVEL DE ADICIONAR PARENTESES EM VOLTA DOS DOIS PRIMEIROS DIGITOS
@@ -27,7 +27,7 @@ function telefone(variavel) {
 }
 
 //Mascara do RG e CPF
-function RGeCPF(variavel){
+    function RGeCPF(variavel){
     variavel=variavel.replace (/\D/g,"") //Remove tudo o que não é número
 
     //Coloca um ponto após o terceiro dígito e o quarto
@@ -39,10 +39,11 @@ function RGeCPF(variavel){
 
     //Coloca um HIFEM após o sétimo digito e permite apenas 2 digitos após o HIFEM
     variavel=variavel.replace (/(\d{3})(\d{1,2})$/,"$1-$2")
+    return variavel
 }
 
 //Mascara do CEP
-function cep(variavel) {
+    function CEP(variavel) {
     variavel=variavel.replace (/\D/g,"") //Remove tudo o que não é digito
     
 
