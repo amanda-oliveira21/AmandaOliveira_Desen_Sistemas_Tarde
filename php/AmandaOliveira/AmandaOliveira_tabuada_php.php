@@ -11,7 +11,7 @@
         }
         th, td{
             border-style:solid;
-            width: 50px;
+            width: 100px;
         }
     </style>
 </head>
