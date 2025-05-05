@@ -9,7 +9,7 @@ driver = webdriver.Chrome()
 # com o protocolo file://
 # Certifique-se de que o caminho está apontando para um arquivo
 # HTML específico
-driver.get("file:///C:/Users/amanda_oliveira22/Documents/GitHub/AmandaOliveira_Desen_SistemasTarde/teste_amanda/index.html")
+driver.get("file:///C:/Users/amanda_oliveira22/Documents/GitHub/AmandaOliveira_Desen_Sistemas_Tarde/teste_amanda/index.html")
 
 # Preencha o campo nome
 nome_input = driver.find_element(By.ID, "name")
@@ -36,6 +36,4 @@ time.sleep(600)
 
 #Fecha o navegador
 driver.quit()
-
-
 
